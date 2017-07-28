@@ -19,9 +19,31 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         padding: 10px;
       }
+
+      .courses-content{
+        position: relative;
+        padding: 10%;
+      }
+
+      .box-speaker{
+        display: flex;
+      }
+
+      .box-speaker div{
+        position: relative;
+        width: 50%;
+      }
+
+      .box-speaker-image img{
+        width: 90%;
+      }
+
+      .speaker-name{
+        font-style: italic;
+      }
     </style>
 
-    <div class="vertical-section-container centered">
+    <div class="courses-content">
       <h1>Cursos</h1>
       <p>O evento contará com diversos cursos.</p>
     </div>
@@ -33,8 +55,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <div class="card">
       <h2>Nome do Curso</h1>
-      <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dignissimos debitis consectetur, doloribus, vitae voluptatem nihil modi commodi repudiandae fuga ea ratione assumenda est, at placeat enim? Fuga, dignissimos, dolorem?
-      </p>
+      <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dignissimos debitis consectetur, doloribus, vitae voluptatem nihil modi commodi repudiandae fuga ea ratione assumenda est, at placeat enim? Fuga, dignissimos, dolorem?</p>
+    </div>
+    <div class="card">
+      <h2>#UseThePlatform - Construindo Aplicações Web com Polymer</h1>
+      <p>Vamos conhecer todo o poder da Web, do mundo dos Web Components e toda a mágina do Polymer.</p>
+      <div class="box-speaker">
+        <div class="box-speaker-image">
+          <img src="images/yan.png" alt="Imagem Palestrante Yan Magalhães">
+        </div>
+        <div class="box-speaker-description">
+          <p class="speaker-name">Palestrante: Yan Magalhães</p>
+        </div>
     </div>
   </template>
 
