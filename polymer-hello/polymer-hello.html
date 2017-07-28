@@ -1,0 +1,21 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="polymer-hello">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello Dev Weekend!</h2>
+    <p>Olá Diamantina :D</p>
+  </template>
+
+  <script>
+    class PolymerHello extends Polymer.Element {
+      static get is() { return 'polymer-hello'; }
+    }
+    
+    window.customElements.define(PolymerHello.is, PolymerHello);
+  </script>
+</dom-module>
