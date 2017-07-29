@@ -5,7 +5,7 @@
     "src/my-view1.html",
     "src/my-view2.html",
     "src/my-happy-hour.html",
-    "src/schedule.html",
+    "src/my-schedule.html",
     "src/my-view404.html"
   ],
   "sources": [
