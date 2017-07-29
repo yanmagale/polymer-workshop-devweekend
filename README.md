@@ -1,4 +1,4 @@
-# GDG DevWeekend Diamantina 2017
+# DevWeekend Diamantina 2017
 
 Exemplos mostrados durante o Workshop "#UseThePlatform - Construindo aplicações web com Polymer"
 

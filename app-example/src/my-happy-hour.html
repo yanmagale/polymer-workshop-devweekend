@@ -11,7 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="shared-styles.html">
 
-<dom-module id="my-view1">
+<dom-module id="my-happy-hour">
   <template>
     <style include="shared-styles">
       :host {
@@ -26,18 +26,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
 
     <div class="card">
-      <h1>O Evento</h1>
-      <p>O DevWeekend, workshop organizado e ministrado pela Diamond Valley, trata-se de um evento cujo enfoque principal, a inserção e aprimoramento ao tema "A Tecnologia da Informação", será habilitado por meio de palestras, cursos e minicursos, mesas de debates e uma super competição de programação. Vale a pena conferir!</p>
-      <img src="images/logo.jpg" class="logo-event" alt="DevWeekend Diamantina">
+      <h1>Happy Hour</h1>
+      <p>Hora de Fazer Networking :D :D :D</p>
     </div>
     
   </template>
 
   <script>
-    class MyView1 extends Polymer.Element {
-      static get is() { return 'my-view1'; }
+    class MyHappyHour extends Polymer.Element {
+      static get is() { return 'my-happy-hour'; }
     }
 
-    window.customElements.define(MyView1.is, MyView1);
+    
+
+    window.customElements.define(MyHappyHour.is, MyHappyHour);
   </script>
 </dom-module>

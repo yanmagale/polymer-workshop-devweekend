@@ -1,11 +1,11 @@
 {
-  "name": "My App",
-  "short_name": "My App",
-  "description": "My App description",
+  "name": "DevWeekend Diamantina",
+  "short_name": "DevWeekend",
+  "description": "Descrição completa do evento DevWeekend Diamantina",
   "start_url": "./?homescreen=1",
   "display": "standalone",
-  "theme_color": "#3f51b5",
-  "background_color": "#3f51b5",
+  "theme_color": "#00a1b0",
+  "background_color": "#00a1b0",
   "icons": [
     {
       "src": "images/manifest/icon-192x192.png",

@@ -1,0 +1,85 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="my-schedule">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+
+      .schedule-content{
+        position: relative;
+        padding: 0 10%;
+      }
+    </style>
+
+    <div class="schedule-content">
+      <h1>Programação</h1>
+      <p>Fique atento aos horários e não perca nenhum momento do evento!</p>
+    </div>
+
+    <div class="card">
+      <h2>09:00 - Abertura dos Portões/Coffe Break</h2>
+      <p>Aproveite o momento para conhecer pessoas e fazer Networking.</p>
+    </div>
+
+    <div class="card">
+      <h2>10:00 - Palestra: A importância do Empreendedorismo para o Profissional de T.I.</h2>
+      <p class="speaker-name">Palestrante: Renan Teixeira</p>
+    </div>
+
+    <div class="card">
+      <h2>11:00 - Palestra: Tudo o que você sempre quis ouvir</h2>
+      <p class="speaker-name">Palestrante: Jimmy Andrade</p>
+    </div>
+
+    <div class="card">
+      <h2>12:00 - Almoço</h2>
+      <p>Aproveite o momento para conhecer pessoas e fazer Networking.</p>
+    </div>
+
+    <div class="card">
+      <h2>14:00 - Palestra: Empoderamento Feminino</h2>
+      <p class="speaker-name">Palestrante: Serena Fernandes</p>
+    </div>
+
+    <div class="card">
+      <h2>15:00 - Palestra: O Dia a Dia de uma Startup e a Jornada Empreendedora</h2>
+      <p class="speaker-name">Palestrante: Aurélio de Pádua</p>
+    </div>
+
+    <div class="card">
+      <h2>16:00 - Cursos</h2>
+      <p>Hora de aprender e de por a mão na massa!!!</p>
+    </div>
+
+    <div class="card">
+      <h2>20:00 - Apresentação do Desafio de Programação e Happy Hour</h2>
+      <p>Aproveite o momento para conhecer pessoas e fazer Networking.</p>
+    </div>    
+    
+  </template>
+
+  <script>
+    class MySchedule extends Polymer.Element {
+      static get is() { return 'my-schedule'; }
+    }
+
+    
+
+    window.customElements.define(MySchedule.is, MySchedule);
+  </script>
+</dom-module>

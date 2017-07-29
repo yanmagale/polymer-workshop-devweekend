@@ -24,6 +24,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="lazy-import" href="my-view1.html">
 <link rel="lazy-import" href="my-view2.html">
+<link rel="lazy-import" href="my-happy-hour.html">
+<link rel="lazy-import" href="my-schedule.html">
 <link rel="lazy-import" href="my-view404.html">
 
 <dom-module id="my-app">
@@ -80,7 +82,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <app-toolbar>Menu</app-toolbar>
         <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
           <a name="view1" href="[[rootPath]]view1">O Evento</a>
+          <a name="view1" href="[[rootPath]]schedule">Programação</a>
           <a name="view2" href="[[rootPath]]view2">Cursos</a>
+          <a name="view2" href="[[rootPath]]happy-hour">Happy Hour</a>
         </iron-selector>
       </app-drawer>
 
@@ -100,8 +104,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             fallback-selection="view404"
             role="main">
           <my-view1 name="view1"></my-view1>
+          <my-schedule name="schedule"></my-schedule>
           <my-view2 name="view2"></my-view2>
-          <my-view3 name="view3"></my-view3>
+          <my-happy-hour name="happy-hour"></my-happy-hour>
           <my-view404 name="view404"></my-view404>
         </iron-pages>
       </app-header-layout>
